@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style-main.css" />
+    <link rel="icon" href="images/logoquiz.png">
+    <title>Quizlet</title>
+    <script defer src="main Page/script.js"></script> 
+  </head>
+  <body>
+    
+        <nav class="navbar navbar-expand-lg bg-white navbar-light navbar-background">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img
+              src="images/logoquiz.png"
+              alt="Quizlet-Logo"
+              class="nav__logo"
+              designer="Awni"
+              id="logo"
+              data-version-number="3.0"
+            /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-around">
+                <li class="nav-item px-5">
+                  <a class="nav-link active fw-bold text-dark mx-2 h3" aria-current="page" href="#">Home</a>
+                </li>
+               
+                <li class="nav-item px-5">
+                  <a class="nav-link h3 fw-bold  mx-2" href="html/signup.html">Sign Up</a>
+                </li>
+                <li class="nav-item px-5">
+                  <a class="nav-link h3 fw-bold mx-2" href="html/contactus.html">Contact US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+      <header class="header">
+        <!-- Start Navbar -->
+    
+    <!-- End Navbar -->
+  
+        <div class="header__title">
+          <h1>
+            Your
+            <!-- Green highlight effect -->
+            <span class="highlight">online</span>
+            Testing<br />
+            <span class="highlight">Partner</span>
+          </h1>
+          <h4>Online exam system for all your testing needs for assessment, recruitment, selection and certifications</h4>
+          <button class="btn--text btn--scroll-to" id="learnMore">Learn more &DownArrow;</button>
+          <img
+            src="images/header.PNG"
+            class="header__img"
+            alt="Minimalist bank items"
+          />
+        </div>
+      </header>
+  
+      <section class="section section1" id="section--1">
+        <div class="section__title">
+          <h2 class="section__description">Features</h2>
+          <h3 class="section__header">
+            Everything you need in a modern bank and more.
+          </h3>
+        </div>
+  
+        <div class="features">
+          <img
+            src="images/digital-lazy.jpg"
+            data-src="images/Smart_Proctoring.jpg"
+            alt="Computer"
+            class="features__img"
+          />
+          <div class="features__feature">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="images/icons.svg#icon-monitor"></use>
+              </svg>
+            </div>
+            <h5 class="features__header">Smart Proctoring</h5>
+            <p>
+              Invigilate for any suspicious activity in online exam with AI based cheating
+               prevention and assertive actions upon intolerable behaviour. Live streaming of test takers with live chat. 
+              Automatic capture of candidate’s photos during examination at specified intervals.
+            </p>
+          </div>
+  
+          <div class="features__feature">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="images/icons.svg#icon-trending-up"></use>
+              </svg>
+            </div>
+            <h5 class="features__header">Exam monitor</h5>
+            <p>
+              Live coverage of the examinations showing details such as candidates taking, 
+              
+              completed and dropped tests with their number of attempts, device name, browser, operating system, IP address and location details.
+  
+  
+            </p>
+          </div>
+          <img
+            src="images/somthexam.jpg"
+            data-src="images/somthexam.jpg"
+            alt="Plant"
+            class="features__img "
+          />
+  
+          <img
+            src="images/girlexam.jpg"
+            data-src="images/girlexam.jpg"
+            alt="Credit card"
+            class="features__img"
+          />
+          <div class="features__feature">
+            <div class="features__icon">
+              <svg>
+                <use xlink:href="images/icons.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <h5 class="features__header">Smooth concurrent exams</h5>
+            <p>
+              An enormous number of candidates are catered smoothly providing concurrent exams, a delight to both test takers and the managers.
+               Our online exam system built for a large number of simultaneous test sessions.
+            </p>
+          </div>
+        </div>
+      </section>
+  
+      <section class="section" id="section--2">
+        <div class="section__title">
+          <h2 class="section__description">Operations</h2>
+          <h3 class="section__header">
+            Everything as simple as possible, but no simpler.
+          </h3>
+        </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="
+              btn
+              operations__tab operations__tab--1 operations__tab--active
+            "
+            data-tab="1"
+          >
+            <span>01</span>HtML Quiz
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>CSS Quiz
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Java script Quiz
+          </button>
+        </div>
+        <div
+          class="
+            operations__content
+            operations__content--1
+            operations__content--active
+          "
+        >
+          <div class="operations__icon operations__icon--1">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h5 class="operations__header">
+            Are you ready to test your skills in Html?
+          </h5>
+          <p>
+            Simply register on the website and you will be ready to take the test and determine your level. However, keep in mind that you will only have 30 seconds to fill out an answer otherwise the question point will be canceled.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            
+            <i class="fab fa-css3-alt"></i>
+
+            
+          </div>
+          <h5 class="operations__header">
+            To be a good front-end web developer you should learn CSS
+          </h5>
+          <p>
+            Let's say you want to major in CSS then you are in the right place. You'll be given 10 questions to answer, which you should complete. Remember, you can't take the quiz unless you have a login.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <i class="fab fa-js"></i>
+          </div>
+          <h5 class="operations__header">
+            you can do almost anything on your website throw javascript so let test your skills in it
+          </h5>
+          <p>
+            This exam will require your full attention since it will not be simple. We dare you to finish it, so be well prepared before your quiz and if you are not, please go brush up on your information before returning to us.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+      </div>
+      <footer class="text-center text-white" style="background: linear-gradient(to top left, #8BC6EC, #9599E2
+      );">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center h4 p-3" >
+          © 2021 Copyright:
+          <a class="text-white" style="text-decoration: none;" href="#">Group1</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+     
+  </body>
+</html>

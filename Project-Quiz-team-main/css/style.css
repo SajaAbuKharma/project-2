@@ -1,0 +1,387 @@
+/* body {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  body{
+    overflow-x: hidden !important;
+  }
+  .navbar-background{
+    background: linear-gradient(to top left, #8BC6EC, #9599E2
+    ) !important
+    ;
+  }
+  .nav__logo{
+    height: 4rem;
+   
+  }
+  
+  .signup-section{
+    width: 500px;
+    background-color: rgb(255 255 255 /35%);
+    padding: 20px;
+    border-radius: 6px;
+    
+  } 
+  /* Start Nav */
+.nav-item {
+  padding: 0 20px;
+}
+
+  
+  .main-section{
+    background-color: #8BC6EC;
+    background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    min-height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+   
+  }
+
+  .main-section .questions-section .next-btn {
+    width: 25%;
+  }
+
+  @media (max-width: 767px) {
+    .questions-section .answers-section {
+      font-size: 18px;
+    }
+    .main-section .questions-section {
+      width: 95%;
+      margin: auto;
+    }
+    .main-section .questions-section .next-btn {
+      display: block;
+      width: 100% !important;
+      padding: 3px;
+      font-size: 18px;
+    }
+
+    .card{
+      margin: auto;
+      margin-bottom: 2rem !important;
+    }
+
+
+  }
+
+
+
+  /* Login  */
+   .login-section{
+    width: 500px;
+    background-color: rgb(255 255 255 /35%);
+    padding: 20px;
+    border-radius: 6px;
+  } 
+
+  /* Cards */
+  
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* body{
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+} */
+/* Start Cards */
+.main-section .welcome-name .name {
+  
+  color: #dd512a;
+}
+
+
+
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.cards-section {
+  background-color: #EEE;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.html-btn-logo {
+  background-color: #dd512a;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.css-btn-logo {
+  background-color: #2465f1;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.js-btn-logo {
+  background-color: #f7e018;
+  font-weight: bold;
+}
+/* End Cards */
+/* _____________________________________________breief style__________________________________________________________________ */
+.breif-section{
+  background: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh
+}
+ .container-brief{
+ text-align: center;
+  background-color: #ffffff59;
+  border-radius: 15px;
+} 
+.container-brief h1{
+  margin-bottom: 25px;;
+}
+.container-brief h4{
+  margin-bottom: 25px;
+  line-height: 1.5em ;
+  font-size: 22px;
+}
+.container-brief h4 strong{
+  color: red;
+}
+.start-btn,.back-btn{
+  width:20rem ;
+}
+
+@media (max-width:450px) {
+  .breif-section{
+    width: 90%;
+    
+  }
+  .container-brief h4{
+    font-size: 1rem;
+  }
+  .start-btn,.back-btn{
+    width:10rem ;
+  }
+  
+}
+/*-----------------------------Questions------------------------------*/
+.questions-section {
+  background-color: rgb(255 255 255 /35%);
+  width: 700px;
+  padding: 20px;
+  border-radius: 6px;
+}
+.timer{
+  width: 12%;
+  border: rgba(0,0,0,0.2) 2px solid;
+  text-align: center;
+  border-radius: 0.2rem;
+  box-shadow: 2px 2px 2px rgba(50,50,50,0.8);
+  
+  background-color: rgba(50,50,50,0);
+  padding: 0.6rem 1rem;
+  border-radius: 1.6rem;
+  box-shadow: 2px 2px 2px rgba(50,50,50,0.8);
+  border: 2px solid white;
+  
+  margin-left: 89%;
+}
+@media(max-width:450px){
+  .timer{
+    width: 12%;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-left: 85%;
+    
+  }
+}
+.unanswered-question{
+  font-size: 1.2rem;
+  color: red;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.questions-section .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.questions-section .question {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questions-section .answers-section {
+  padding: 10px;
+}
+
+.answers-section .form-check {
+  padding: 20px 30px;
+}
+
+/*------------------------------results-page------------------------*/
+/* body{
+  padding: 1rem;
+  background-color: #92D087;
+
+} */
+.grade-section{
+  padding: 4rem;
+  background-color: rgba(255,255,255,1);
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+  border-radius: 4rem;
+}
+.grade
+
+i{
+  padding-top: 2rem;
+  font-size: 90px;
+  color: green;
+}
+.wrong{
+  padding-top: 2rem;
+  font-size: 90px;
+  color: rgb(184, 0, 0);
+
+}
+/* display results */
+.green{
+  background-color: #4caf50
+  ;
+
+}
+.red{
+    background-color: #f44336;
+}
+/*restrict the height of the results card*/
+.min-height-50{
+  min-width:80vw !important;
+
+}
+.home-btn{
+  text-align: right;
+  
+}
+.fa-home{
+  font-size: 3rem;
+  color: whitesmoke;
+  
+}
+.fa-home:hover{
+  cursor: pointer;
+}
+.show-results-btn{
+  width: 50%;
+  margin: auto;
+}
+
+.btn-logout{
+  position: fixed;
+  top: 3%;
+  
+  left: 88%;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+  text-decoration: none;
+  
+
+}
+.btn-logout:hover{
+  transform: scale(1.05);
+  background-color: rgba(238, 238, 238,0.8);
+}
+.btn-logout:active{
+  transform: scale(0.95);
+}
+/*_-------------------------------------------------------*/
+@media(max-width:450px){
+  .font-small-sm{
+    font-size: 1.2rem;
+  }
+}
+/*------------------------------------Results overlay-----------------------------*/
+
+
+.grade-section {
+  
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  
+}
+.grade-section h2{
+  font-size: 1rem;
+}
+
+
+
+i {
+  
+  font-size: 90px;
+  color: green;
+}
+
+.wrong {
+  font-size: 90px;
+  color: rgb(184, 0, 0);
+}
+
+/* display results */
+.green {
+  background-color: rgb(126, 218, 126);
+
+}
+
+.red {
+    background-color: rgb(235, 85, 15);
+}
+/*------------------------------------------------------*/
+@media(max-width:450px){
+  .grade-section{
+    width:90%
+  }
+}
+/*-----------------------------------*/
+.card-result:hover{
+  transform: scale(1);
+}
+@media (max-width: 767px) {
+  .cards-section .intro-text {
+    padding-top: 30px;
+  }
+
+  .cards-section .row .card {
+    margin-bottom: 20px;
+  }
+  .btn-logout{
+    position: absolute;
+    left: 70%;
+    top:0.5% ;
+    padding: 0.5rem 0.4rem;
+    
+  }
+
+  .next-btn{
+    width: 50% !important;
+  }
+}
+
+
